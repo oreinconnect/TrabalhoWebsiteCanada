@@ -1,0 +1,69 @@
+.dados_h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.dados_h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 30;
+}
+
+h3{
+    font-size: 30px;
+    margin-left: 8px;
+    margin-bottom: 15px;
+}
+
+h4{
+    font-size: 25px;
+    margin-left: 8px;
+}
+
+p{
+    margin-left: 25px;
+    margin-top: 5px;
+    margin: 10px;
+}
+
+.image_text{
+    margin-top: 1px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    font-size: 13px;
+}
+
+h5{
+    font-size: 18px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+}
+
+img{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+table{
+    text-align: center;
+}
+
+.inicial{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.formulario{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.lista{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+}

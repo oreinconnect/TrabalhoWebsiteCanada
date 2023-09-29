@@ -1,0 +1,39 @@
+h1{
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+.form1_canada{
+    margin-left: 15px;
+    
+}
+
+.form2_canada{
+    margin-left: 18px;
+}
+
+.titulo{
+    color: red; 
+}
+
+.anos{
+    color: red;
+}
+
+.inicial{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.lista{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.tabela{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+}

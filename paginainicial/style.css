@@ -1,0 +1,70 @@
+.bandeira_canada{
+    width: 100%;
+    height: 200px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    margin-left: 15px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.local_canada{
+    margin-left: 20px;
+    width: 400px;
+    height: 200px;
+}
+
+p{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+.imagem_li{
+    width: 750px;
+    height: 440px;
+    margin-left: 20px;
+}
+
+.canada1{
+    color: red;
+    font-size: 60px;
+    margin-left: 5px;
+}
+
+.localizaçao{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.ponto{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.formulario{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.park{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+h3{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulario</title>
+</head>
+<body>
+    <a class="inicial" href="../paginainicial/pagina inicial.html">pagina inicial</a>
+    <br>
+    <a class="lista" href="../listas/listas.html">lista</a>
+    <br>
+    <a class="tabela" href="../tabela/tabela.html">tabela</a>
+    
+    <h1 class="titulo">Formulário de Solicitação de Visto de Visitante:</h1>
+    <section class="form1_canada">
+        <form action="/pagina-processa-dados-do-form" method="post">
+            <div>
+              <label for="nome">Digite o seu Nome:</label>
+              <input type="text" id="nome" />
+            </div>
+            <div>
+              <label for="email"> Digite o seu E-mail:</label>
+              <input type="email" id="email" />
+            </div>
+            <div>
+              <label for="cpf">Digite o seu CPF:</label>
+              <input type="text" id="cpf">
+            </div>
+            <div>
+                <label for="nascimento">DATA DE NASCIMENTO</label>
+                <input type="text" id="nascimento">
+            </div>
+            <div>
+                <label for="passaporte">Nº do passaporte</label>
+                <input type="text" id="passaporte">
+            </div>
+            <div>
+            <p>Qual o seu sexo </p>   
+            <input type="radio" name="opção" value="op1">Masculino
+            <input type="radio" name="opção" value="op1">Feminino
+            </div>
+            <div>
+                <label for="cidade">Digite a Cidade e Pais que Nasceu</label>
+                <input type="text" id="cidade">
+            </div>
+            <div>
+                <label for="residencia">Pais de residencia atual</label>
+                <input type="text" id="residencia">
+            </div>
+          </form>
+        </section>
+    <h1 class="anos">Preencher os dados abaixo apenas se você tem 18 anos ou mais</h1>
+        <section class="form2_canada">
+          <form>
+            <p>Nos últimos 2 anos você ou um membro da familia contraiu Tuberculose de pulmão, ou esteve em contato com alguém com Tuberculose?</p>
+            <input type="radio" id="sim"  name="resposta" value="sim">SIM
+            <input type="radio" id="NÃO" name="resposta" value="não">NÃO
+
+            <P>Você é portador de qualquer deficiência física ou mental que exige atendimento especial dos serviços saúde ou social?</P>
+            <input type="radio" id="sim" name="resposta" value="SIM">SIM
+            <input type="radio" id="não" name="resposta" value="não">NÃO
+
+            <p>Você alguma vezjá solicitou qualquer tipo de visto para o canadá?</p>
+            <input type="radio"  id="sim" name="resposta" value="sim">SIM
+            <input type="radio" id="NÃO" name="resposta" value="não">NÃO
+
+            <p>Você alguma vez ja teve qualquer visto recusado para o canadá?</p>
+            <input type="radio"  id="sim" name="resposta" value="sim">SIM
+            <input type="radio" id="NÃO" name="resposta" value="não">NÃO
+
+          </form>
+        </section>
+</body>
+</html>
